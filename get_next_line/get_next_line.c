@@ -6,7 +6,7 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/13 18:33:00 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/16 10:14:03 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/06/17 17:15:18 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,9 @@ char	*readlines(int fd, char *stash)
 	return (stash);
 }
 
+/// @brief Reads from fd line by line
+/// @param fd File descriptor
+/// @return Each line
 char	*get_next_line(int fd)
 {
 	static char	*stash;

@@ -6,12 +6,13 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 15:06:20 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/04/26 15:06:21 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/06/17 17:08:46 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/// @brief Iterates the list lst and applies the function f on the content of each node and save it to a new lst
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_node;

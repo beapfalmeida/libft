@@ -6,7 +6,7 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 21:55:29 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/05/04 11:30:50 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/06/17 17:11:59 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include <string.h>
 #include <stdio.h>
 
+/// @brief Copies N bytes from memory area src to memory area dest. The memory areas must not overlap. 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
 	unsigned int	i;

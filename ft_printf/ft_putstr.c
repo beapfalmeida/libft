@@ -1,26 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstnew.c                                        :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/04/26 15:06:26 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 17:09:37 by bpaiva-f         ###   ########.fr       */
+/*   Created: 2024/05/02 11:02:11 by bpaiva-f          #+#    #+#             */
+/*   Updated: 2024/05/08 16:34:03 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_printf.h"
 
-/// @brief Creates a new node and puts in its content the content received and sets next to NULL
-t_list	*ft_lstnew(void *content)
+int	ft_putstr(char *str)
 {
-	t_list	*root;
+	int	i;
 
-	root = malloc(sizeof(t_list));
-	if (!root)
-		return (NULL);
-	root->content = content;
-	root->next = NULL;
-	return (root);
+	i = 0;
+	if (!str)
+		return (write(1, "(null)", 6));
+	while (str[i])
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
+	return (i);
 }

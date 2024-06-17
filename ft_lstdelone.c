@@ -6,12 +6,13 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 15:06:08 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/04/26 15:08:45 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/06/17 17:06:47 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/// @brief Takes as a parameter a node and frees the memory of the node's content using the function del given as a parameter and free the node
 void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!del)
