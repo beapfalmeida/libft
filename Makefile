@@ -12,9 +12,7 @@ BONUS_OBJ = $(BONUS_SRC:.c=.o)
 PRINTF = ft_printf.a
 PRINTF_DIR = ft_printf
 
-all: $(NAME)
-
-printf: $(PRINTF)
+all: $(PRINTF) $(NAME)
 
 $(PRINTF):
 	$(MAKE) -C $(PRINTF_DIR)
@@ -29,7 +27,7 @@ clean:
 fclean: clean
 	$(RM) $(NAME)
 	$(MAKE) -C $(PRINTF_DIR) fclean
-	libft/ft_printf
+
 re: fclean all
 
 bonus: $(OBJ) $(BONUS_OBJ) 
