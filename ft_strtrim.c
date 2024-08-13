@@ -6,14 +6,15 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 15:06:18 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:23:04 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:41:37 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdio.h>
 
-/// @brief checks char by char in the string set to see if they match with c
+/// @brief checks char by char in the string 
+///set to see if they match with c
 static int	check(char const *set, char c)
 {
 	int	j;
@@ -28,7 +29,8 @@ static int	check(char const *set, char c)
 	return (0);
 }
 
-/// @brief Makes a copy of s and removes the characters specified in ’set’ from the beginning and the end of it
+/// @brief Makes a copy of s and removes the characters 
+///specified in ’set’ from the beginning and the end of it
 /// @return The new trimmed string
 char	*ft_strtrim(char const *s, char const *set)
 {

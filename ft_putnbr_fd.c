@@ -6,13 +6,14 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 22:00:13 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:08:48 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:39:38 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/// @brief Converts an integer into characters and displays it in the file with file descriptor fd
+/// @brief Converts an integer into characters and 
+///displays it in the file with file descriptor fd
 void	ft_putnbr_fd(int n, int fd)
 {
 	if (n == -2147483648)

@@ -6,11 +6,13 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/25 10:27:36 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:17:19 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:40:10 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/// @brief Applies the function ’f’ on each character of the string passed as argument, passing its index as first argument
+/// @brief Applies the function ’f’ on each character 
+///of the string passed as argument,
+/// passing its index as first argument
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	int	i;

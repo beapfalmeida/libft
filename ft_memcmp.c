@@ -6,14 +6,15 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 21:54:30 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 17:16:09 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:39:13 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /// @brief Compares the first n bytes of memory areas s1 and s2
-/// @return The diff between the first pair of characters that differ from each other
+/// @return The diff between the first pair of characters 
+///that differ from each other
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned char	*str1;

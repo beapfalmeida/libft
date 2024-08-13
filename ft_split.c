@@ -6,7 +6,7 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 15:54:39 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:09:49 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:41:25 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,7 +84,9 @@ static char	**save_words(char **arr, char *s, char c)
 	arr[j] = NULL;
 	return (arr);
 }
-/// @brief Splits a string into multiple, delimited by c, saving them in an array that is returned
+
+/// @brief Splits a string into multiple, delimited by c,
+/// saving them in an array that is returned
 char	**ft_split(char *s, char c)
 {
 	int		n;

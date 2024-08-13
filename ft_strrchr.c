@@ -6,7 +6,7 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 22:05:14 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 15:59:57 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:38:50 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 #include <stdio.h>
 
 /// @brief Scans the string pointed to by s for the last instance of c
-/// @return A pointer to the last appearance of c in s, or NULL if the char is not found
+/// @return A pointer to the last appearance of c in s, 
+///or NULL if the char is not found
 char	*ft_strrchr(const char *s, int c)
 {
 	unsigned int	i;

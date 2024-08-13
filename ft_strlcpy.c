@@ -6,7 +6,7 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 11:56:54 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:16:25 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:40:46 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,8 @@
 #include <bsd/string.h>
 #include <stdlib.h>
 
-/// @brief Copies up to size characters from the src to dst and NUL-terminates the result
+/// @brief Copies up to size characters from 
+///the src to dst and NUL-terminates the result
 /// @return Length of src
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

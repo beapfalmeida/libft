@@ -6,13 +6,15 @@
 /*   By: bpaiva-f <bpaiva-f@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 16:00:19 by bpaiva-f          #+#    #+#             */
-/*   Updated: 2024/06/17 16:05:41 by bpaiva-f         ###   ########.fr       */
+/*   Updated: 2024/08/13 16:42:07 by bpaiva-f         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include "libft.h"
-/// @brief Counts the number of characters an integer has. For example: -1234 has 5 chars.
+
+/// @brief Counts the number of characters an integer has. 
+///For example: -1234 has 5 chars.
 static int	countnum(int n)
 {
 	int	count;
@@ -27,6 +29,7 @@ static int	countnum(int n)
 	}
 	return (count);
 }
+
 /// @brief Turns an integer into a string
 char	*ft_itoa(int n)
 {
